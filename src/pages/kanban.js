@@ -1,5 +1,5 @@
 import React from 'react';
-import Kanban from '../components/Kanban';
+import Kanban from '../components/Kanban/Kanban';
 
 /**
  * KanbanPage component that renders the Kanban board.
@@ -9,7 +9,7 @@ import Kanban from '../components/Kanban';
 export default function KanbanPage() {
   return (
     <div className='m-4 h-full flex flex-col'>
-      <div className="flex h-full w-full">
+      <div className="flex min-h-full min-w-full">
         <Kanban />
       </div>
     </div>

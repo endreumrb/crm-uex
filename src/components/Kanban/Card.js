@@ -59,7 +59,7 @@ export default function Card({ id, content, columnId, openModal, removeCard, isD
             onClick={() => removeCard(columnId, id)}
             className="text-red-500 hover:text-red-700 transition duration-300"
           >
-            X
+            ✕
           </button>
       </div>
     </div>

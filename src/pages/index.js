@@ -1,13 +1,13 @@
 import React from 'react';
-import TaskStatusChart from '@/components/charts/TaskStatusChart';
-import TaskProgressChart from '@/components/charts/TaskProgressChart';
+import TaskStatusChart from '@/components/Charts/TaskStatusChart';
+import TaskProgressChart from '@/components/Charts/TaskProgressChart';
 
 /**
  * Dashboard component displaying CRM analytics.
  * 
  * @returns {React.ReactElement} The rendered dashboard
  */
-export default function Dashboard() {
+export default function DashboardPage() {
   // Dados simulados para o estado das tarefas no Kanban
   const taskStatusData = [
     { status: 'Lead', count: 15 },

@@ -21,7 +21,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/settings" className="flex items-center p-2 hover:bg-gray-700 rounded">
+          <Link href="" className="flex items-center p-2 hover:bg-gray-700 rounded">
             <Settings size={20} className="mr-2" />
             Configurações
           </Link>
